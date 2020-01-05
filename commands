@@ -1,0 +1,6 @@
+npm install bootstrap@3jquery --save
+
+ng g c employee/create-employee --spec=false --flat=true
+
+ng g c employee/list-employees --spec=false --flat=true
+ng g m app-routing --flat=true --module=app
