@@ -4,3 +4,15 @@ ng g c employee/create-employee --spec=false --flat=true
 
 ng g c employee/list-employees --spec=false --flat=true
 ng g m app-routing --flat=true --module=app
+
+
+In the command prompt type the following command 
+ npm config set proxy http://indchnshlb04intpxy02.ad.infosys.com:80 
+ then 
+ npm config set https-proxy http://indchnshlb04intpxy02.ad.infosys.com:80
+ 
+ --to remove proxy
+ npm config rm proxy
+npm config rm https-proxy
+
+Can use npm config list to check the proxy config
