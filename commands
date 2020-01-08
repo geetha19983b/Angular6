@@ -7,12 +7,17 @@ ng g m app-routing --flat=true --module=app
 
 
 In the command prompt type the following command 
- npm config set proxy http://indchnshlb04intpxy02.ad.infosys.com:80 
+ npm config set proxy http://indchnshlb04intpxy02.ad.in.com:80 
  then 
- npm config set https-proxy http://indchnshlb04intpxy02.ad.infosys.com:80
+ npm config set https-proxy http://indchnshlb04intpxy02.ad.in.com:80
  
  --to remove proxy
  npm config rm proxy
 npm config rm https-proxy
 
 Can use npm config list to check the proxy config
+
+npm install -g json-server 
+json-server --watch db.json
+--generate a employee module in employee folder  and import it in app module
+ng g m employee/employee --flat -m app
